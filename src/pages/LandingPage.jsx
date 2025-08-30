@@ -7,8 +7,8 @@ const LandingPage = ({ darkMode, setDarkMode }) => {
   return (
     <>
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
-      <Hero/>
-      <Features/>
+      <Hero />
+      <Features darkMode={darkMode} />
     </>
   )
 }

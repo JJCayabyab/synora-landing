@@ -38,7 +38,7 @@
   /* subtle border in dark mode */
   --box-sd: rgba(0, 0, 0, 0);
   /* optional, remove shadows for dark mode */
-  --heading-1: #f3f4f6;
+  --heading-1: #d9d9d9;
   /* almost white main heading */
   --heading-2: #22d3ee;
   /* bright cyan for secondary headings */

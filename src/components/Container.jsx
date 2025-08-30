@@ -5,7 +5,7 @@ const Container = ({ children, className = "" }) => {
         <div className={`mx-auto max-w-7xl px-6 py-10 
         sm:px-8 sm:py-8
         md:px-14 md:py-14
-        lg:px-18 lg:py-18
+        lg:px-14 lg:py-18
         ${className}`}>
             {children}
         </div>

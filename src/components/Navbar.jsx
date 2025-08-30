@@ -1,17 +1,16 @@
 import React, { useEffect, useState } from 'react'
 import logo from '../../public/Synora.png'
 
-
-
-
 const Navbar = ({darkMode,setDarkMode}) => {
 
   return (
     <>
-      <nav className='w-full  bg-body shadow-md h-16  flex items-center px-5 justify-between
+    
+      <nav className='w-full  z-100  top-0 fixed  bg-body shadow-md h-16  flex items-center px-5 justify-between
       sm:px-7
       md:px-15
-      lg:px-20'>
+      lg:px-15
+      xl:px-36'>
         <div className='flex items-center w-40 0gap-2'>
           <img className='size-14' src={logo} />
           <h1 className='font-heading text-lg font-bold  bg-gradient-to-r from-[#6366f1] to-[#ec4899] 
