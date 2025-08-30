@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* 🌞 Light Theme */
+@theme {
+  --font-heading: "Inter", sans-serif;
+  --font-body: "Raleway", sans-serif;
+  --body-bg-html: #ffffff;
+  --color-bg: #ffffff;
+  --color-box: #f3f4f6;
+  --box-border: #e5e7eb;
+  --box-sd: rgba(0, 0, 0, 0.05);
+  /* light shadow for boxes */
+  --heading-1: #111827;
+  /* very dark navy, main heading */
+  --heading-2: #1d4ed8;
+  /* strong blue accent for secondary headings */
+  --heading-3: #6b7280;
+  /* gray for tertiary text */
+  --accent-1: #6366f1;
+  /* cyan, main accent (buttons, links) */
+  --accent-2: #ec4899;
+  /* pink, secondary accent */
+}
+
+.dark {
+  --body-bg-html: #0f172a;
+  /* Dark mode body background */
+  --color-bg: #0f172a;
+  /* very dark navy background */
+  --color-box: #111827;
+  /* dark gray for cards */
+  --box-border: rgba(255, 255, 255, 0.1);
+  /* subtle border in dark mode */
+  --box-sd: rgba(0, 0, 0, 0);
+  /* optional, remove shadows for dark mode */
+  --heading-1: #f3f4f6;
+  /* almost white main heading */
+  --heading-2: #22d3ee;
+  /* bright cyan for secondary headings */
+  --heading-3: #9ca3af;
+  /* muted gray for tertiary text */
+  --accent-1: #6366f1;
+  /* cyan accent remains for brand consistency */
+  --accent-2: #f472b6;
+  /* pink accent slightly lighter for dark background */
+}
+
+@layer utilities {
+  .bg-body {
+    background-color: var(--color-bg);
+  }
+
+  .bg-box-bg {
+    background-color: var(--color-box);
+  }
+
+  .text-heading-1 {
+    color: var(--heading-1);
+  }
+
+  .text-heading-2 {
+    color: var(--heading-2);
+  }
+
+  .text-heading-3 {
+    color: var(--heading-3);
+  }
+
+  .bg-accent-1 {
+    background-color: var(--accent-1);
+  }
+
+  .bg-accent-2 {
+    background-color: var(--accent-2);
+  }
+
+  .text-accent-1 {
+    color: var(--accent-1);
+  }
+
+  .text-accent-2 {
+    color: var(--accent-2);
+  }
+
+  .border-accent-1 {
+    border-color: var(--accent-1);
+  }
+
+  .border-accent-2 {
+    border-color: var(--accent-2);
+  }
+
+  .html-bg{
+    background-color: var(--body-bg-html);
+  }
+}
+
+/* Smooth scroll + font */
+html {
+  scroll-behavior: smooth;
+}

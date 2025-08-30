@@ -1,0 +1,53 @@
+import React, { useEffect, useState } from 'react'
+import logo from '../../public/Synora.png'
+
+
+
+
+const Navbar = ({darkMode,setDarkMode}) => {
+
+  return (
+    <>
+      <nav className='w-full  bg-body shadow-md h-16  flex items-center px-5 justify-between
+      sm:px-7
+      md:px-15
+      lg:px-20'>
+        <div className='flex items-center w-40 0gap-2'>
+          <img className='size-14' src={logo} />
+          <h1 className='font-heading text-lg font-bold  bg-gradient-to-r from-[#6366f1] to-[#ec4899] 
+               bg-clip-text text-transparent
+               md:text-xl'>Synora</h1>
+        </div>
+        <div className='hidden  font-body text-heading-1 font-semibold
+        sm:flex sm:gap-x-4 text-md'>
+          <a >
+            <span>Home</span>
+          </a>
+          <a>
+            <span>Features</span>
+          </a>
+          <a>
+            <span>Contact</span>
+          </a>
+          <a>
+            <span>Contact</span>
+          </a>
+        </div>
+
+
+        <div className='w-20 sm:w-40 flex justify-center'>
+
+          <button
+            onClick={() => setDarkMode(!darkMode)}
+            className="p-2 w-15 rounded-full bg-gradient-to-r from-[#79d7e8] to-[#cdf5fc] 
+            dark:from-[#434f6b] dark:to-[#1e293b]">
+            {darkMode ? "🌙" : "☀️"}
+          </button>
+        </div>
+
+      </nav>
+    </>
+  )
+}
+
+export default Navbar
