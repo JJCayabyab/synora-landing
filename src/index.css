@@ -15,7 +15,7 @@
   --box-border: #e5e7eb;
   --box-sd: rgba(0, 0, 0, 0.05);
   /* light shadow for boxes */
-  --heading-1: #111827;
+  --heading-1: #3a3a3a;
   /* very dark navy, main heading */
   --heading-2: #1d4ed8;
   /* strong blue accent for secondary headings */
@@ -32,13 +32,14 @@
   /* Dark mode body background */
   --color-bg: #0f172a;
   /* very dark navy background */
-  --color-box: #111827;
+  --color-box: #3a3a3a;
   /* dark gray for cards */
   --box-border: rgba(255, 255, 255, 0.1);
   /* subtle border in dark mode */
   --box-sd: rgba(0, 0, 0, 0);
   /* optional, remove shadows for dark mode */
   --heading-1: #d9d9d9;
+  --heading-5: #d9d9d9;
   /* almost white main heading */
   --heading-2: #22d3ee;
   /* bright cyan for secondary headings */
@@ -95,7 +96,7 @@
     border-color: var(--accent-2);
   }
 
-  .html-bg{
+  .html-bg {
     background-color: var(--body-bg-html);
   }
 }

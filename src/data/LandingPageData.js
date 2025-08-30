@@ -1,13 +1,12 @@
-// images for features
-import bolt from '../assets/features/feature-bolt.png'
-import natural from '../assets/features/feature-natural.png'
-import continuous from '../assets/features/feature-continuous.png'
-import predictive from '../assets/features/feature-predictive.png'
-import boltDark from '../assets/features/feature-bolt-dark.png'
-import naturalDark from '../assets/features/feature-natural-dark.png'
-import continuousDark from '../assets/features/feature-continuous-dark.png'
-import predictiveDark from '../assets/features/feature-predictive-dark.png'
-
+// data for features
+import bolt from '../assets/features/feature-bolt-v2.png'
+import natural from '../assets/features/feature-natural-v2.png'
+import continuous from '../assets/features/feature-continuous-v2.png'
+import predictive from '../assets/features/feature-predictive-v2.png'
+import boltDark from '../assets/features/feature-bolt-dark-v2.png'
+import naturalDark from '../assets/features/feature-natural-dark-v2.png'
+import continuousDark from '../assets/features/feature-continuous-dark-v2.png'
+import predictiveDark from '../assets/features/feature-predictive-dark-v2.png'
 export const FeaturesData = [
     {
         title: 'Fast & Smart',
@@ -33,5 +32,4 @@ export const FeaturesData = [
         srcDark: continuousDark,
         desc: 'AI that evolves with your behavior and needs.'
     }
-
 ]
