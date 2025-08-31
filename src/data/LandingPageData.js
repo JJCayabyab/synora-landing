@@ -33,3 +33,22 @@ export const FeaturesData = [
         desc: 'AI that evolves with your behavior and needs.'
     }
 ]
+
+export const StatisticsData = [
+    {
+        title: 'Data Points Processed Daily',
+        number: '1M+'
+    },
+    {
+        title: 'Uptime Reliability',
+        number: '99.9%'
+    },
+    {
+        title: 'Businesses Empowered',
+        number: '500+'
+    },
+    {
+        title: 'Faster Insights',
+        number: '10x'
+    },
+]

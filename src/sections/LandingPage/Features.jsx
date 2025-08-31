@@ -5,18 +5,17 @@ import { motion } from 'framer-motion'
 
 
 const Features = ({ darkMode }) => {
-
-
     const FeaturesItems = () => {
         return (
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-                {FeaturesData.map((feature, idx) => (
+
+                {FeaturesData.map((feature, index) => (
                     <div
-                        key={idx}
+                        key={index}
                         className="bg-indigo-50 dark:bg-[#1e293b] p-6 rounded-2xl shadow-md flex flex-col items-center text-center"
                     >
                         <img src={darkMode ? feature.srcDark : feature.srcLight} alt={feature.title} className="w-16 h-16 mb-4" />
-                        <h3 className="font-semibold text-lg mb-2 text-heading-1
+                        <h3 className="font-semibold text-lg mb-2 text-gradient
                         md:text-2xl">{feature.title}</h3>
                         <p className="text-sm text-heading-1 dark:text-gray-300 font-body 
                         lg:text-[15px]">{feature.desc}</p>

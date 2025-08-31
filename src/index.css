@@ -99,6 +99,11 @@
   .html-bg {
     background-color: var(--body-bg-html);
   }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-[var(--accent-1)] to-[var(--accent-2)] bg-clip-text text-transparent;
+  }
+
 }
 
 /* Smooth scroll + font */

@@ -8,8 +8,7 @@ const Hero = () => {
                              lg:flex-row  mt-20' >
             <div className='flex flex-col justify-center  items-center gap-5 lg:w-1/2
                             lg:items-start lg:gap-10 '>
-                <h1 className='font-heading font-semibold text-5xl bg-gradient-to-r from-[#6366f1] to-[#ec4899] 
-                bg-clip-text text-transparent
+                <h1 className='font-heading font-semibold text-5xl bg-gradient-to-r text-gradient
                 sm:text-6xl
                 lg:text-7xl lg:text-left
                 '>
