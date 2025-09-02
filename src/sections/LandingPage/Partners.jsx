@@ -12,7 +12,7 @@ const Partners = () => {
                     animate={{ x: ["0%", "-100%"] }}
                     transition={{
                         repeat: Infinity,
-                        duration: 25,
+                        duration: 20,
                     }}
                 >
                     {[...PartnersData, ...PartnersData].map((partner, index) => (
@@ -37,16 +37,12 @@ const Partners = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, ease: "easeOut" }}
                 viewport={{ once: true }}
-                className="font-heading text-heading-1 font-semibold text-xl mb-5 text-center
+                className="font-heading text-heading-1 font-bold text-xl mb-5 text-center
                    sm:text-2xl
                    md:text-3xl
                    lg:text-4xl"
             >
-                <span className="">
-                    Trusted
-                </span> by Leading Innovators
-
-
+                    Trusted by Leading Innovators
             </motion.h1>
             <PartnersItems />
         </Container>

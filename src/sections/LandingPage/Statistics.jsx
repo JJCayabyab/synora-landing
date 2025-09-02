@@ -14,10 +14,10 @@ const Statistics = () => {
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: index * 0.15 }}
                         viewport={{ once: true }}
-                        className="bg-indigo-50  dark:bg-[#1e293b] rounded-2xl shadow-md p-6 text-center backdrop-blur-md"
+                        className=" dark:bg-[#1e293b]  rounded-2xl shadow-md p-6 text-center backdrop-blur-md"
                     >
                         <h2 className="text-3xl font-heading font-bold bg-gradient-to-r text-gradient">{stat.number}</h2>
-                        <p className="text-heading-1 font-body dark:text-gray-300">{stat.title}</p>
+                        <p className="text-heading-2 font-medium   text-[14px] md:text-base font-body">{stat.title}</p>
                     </motion.div>
                 ))}
             </div>

@@ -7,6 +7,7 @@ import Footer from '../components/Footer'
 import About from '../sections/LandingPage/About'
 import Contacts from '../sections/LandingPage/Contacts'
 import Partners from '../sections/LandingPage/Partners'
+import Pricing from '../sections/LandingPage/Pricing'
 const LandingPage = ({ darkMode, setDarkMode }) => {
   return (
     <>
@@ -14,9 +15,10 @@ const LandingPage = ({ darkMode, setDarkMode }) => {
       <Hero />
       <Statistics />
       <Partners />
-      <About />
       <Features darkMode={darkMode} />
+      <About />
       <Contacts />
+      <Pricing />
       <Footer />
     </>
   )

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import logo from '../../public/Synora.png'
+import logo from '../assets/Synora.png'
 
 const Navbar = ({darkMode,setDarkMode}) => {
 

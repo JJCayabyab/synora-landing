@@ -14,7 +14,7 @@ const Hero = () => {
                 '>
                AI that Thinks with You
             </h1>
-            <p className='text-heading-1 font-body lg:text-left font-medium '>Synora seamlessly combines human creativity with advanced artificial intelligence to accelerate ideas, automate complex workflows, provide actionable insights, and unlock smarter, more efficient decisions for individuals and businesses alike.</p>
+            <p className='text-heading-2 font-body lg:text-left font-medium text-[14px] md:text-[17px] '>Synora seamlessly combines human creativity with advanced artificial intelligence to accelerate ideas, automate complex workflows, provide actionable insights, and unlock smarter, more efficient decisions for individuals and businesses alike.</p>
             {/* <button className="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md bg-accent-2 px-6 font-medium text-neutral-50"><span className="absolute h-56 w-32 rounded-full bg-accent-1 transition-all duration-300 group-hover:h-0 group-hover:w-0"></span><span className="relative">Try Synora</span></button> */}
             <button type="button" className="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4  focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-md font-heading px-5 py-2.5 text-center me-2 mb-2 transition-all duration-500">Try Synora</button>
 
@@ -22,7 +22,7 @@ const Hero = () => {
          <div className="lg:w-1/2 flex justify-end relative">
             <img
                src={heroImage}
-               className="rounded-4xl max-h-96 w-auto relative z-10"
+               className="rounded-2xl max-h-96 w-auto relative z-10"
             />
             <div className="absolute bottom-0 right-0 w-40 h-40  rounded-full bg-gradient-to-r from-[#6366f1] to-[#ec4899] blur-2xl opacity-90
                                 md:w-70 md:h-70 md:opacity-30">

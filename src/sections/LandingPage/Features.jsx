@@ -17,8 +17,9 @@ const Features = ({ darkMode }) => {
                         transition={{ duration: 0.5, delay: index * 0.15 }}
                         viewport={{ once: true }}
                         className="h-full"
-                    >
-                        <div className="h-full bg-indigo-50 dark:bg-[#1e293b] p-6 rounded-2xl shadow-md flex flex-col items-center text-center">
+                    >                       
+                     {/* <div className="h-full bg-indigo-50 dark:bg-[#1e293b] p-6 rounded-2xl shadow-md flex flex-col items-center text-center"> */}
+                        <div className="h-full inset-shadow-xs  dark:bg-[#1e293b] p-6 rounded-2xl shadow-md flex flex-col items-center text-center">
                             <img
                                 src={darkMode ? feature.srcDark : feature.srcLight}
                                 alt={feature.title}
@@ -27,7 +28,7 @@ const Features = ({ darkMode }) => {
                             <h3 className="font-semibold text-lg mb-2 text-gradient md:text-2xl">
                                 {feature.title}
                             </h3>
-                            <p className="text-sm text-heading-1 dark:text-gray-300 font-body lg:text-[15px]">
+                            <p className=" text-heading-1  font-medium text-[14px] md:text-[16px] dark:text-gray-300 font-body">
                                 {feature.desc}
                             </p>
              
@@ -46,16 +47,16 @@ const Features = ({ darkMode }) => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, ease: "easeOut" }}
                 viewport={{ once: true }}
-                className="font-heading text-heading-1 font-semibold text-xl mb-5 text-center
+                className="font-heading text-heading-1 font-bold text-xl mb-5 text-center
                    sm:text-2xl
                    md:text-3xl
                    lg:text-4xl"
             >
-                <span className="">
+                <span className="text-gradient">
                     Smarter
                 </span>{" "}
                 Tools. <br />
-                <span className="">
+                <span className="text-gradient">
                     Human-Centered
                 </span>{" "}
                 AI.

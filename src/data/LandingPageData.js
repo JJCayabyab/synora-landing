@@ -107,3 +107,44 @@ export const PartnersData = [
         link:'https://www.oracle.com/'
     },
 ]
+
+//data for pricing 
+export const PricingData = [
+  {
+    name: "Starter",
+    tagline: "Best for individuals just getting started",
+    price: "Free",
+    features: [
+      "Access to essential features",
+      "1,000 monthly requests",
+      "Community support"
+    ],
+    highlight: false
+  },
+  {
+    name: "Pro",
+    tagline: "For startups & teams",
+    price: "$29/month",
+    features: [
+      "Everything in Starter",
+      "Unlimited monthly requests",
+      "Advanced AI features",
+      "Priority support",
+      "Early access to new tools"
+    ],
+    highlight: true // 👈 this marks it as "Best Value"
+  },
+  {
+    name: "Enterprise",
+    tagline: "For large-scale organizations",
+    price: "Custom Pricing",
+    features: [
+      "Everything in Pro",
+      "Dedicated account manager",
+      "Custom API & integrations",
+      "Tailored security & compliance",
+      "24/7 premium support"
+    ],
+    highlight: false
+  }
+];

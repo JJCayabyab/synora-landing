@@ -7,6 +7,7 @@
 
 /* 🌞 Light Theme */
 @theme {
+ 
   --font-heading: "Inter", sans-serif;
   --font-body: "Raleway", sans-serif;
   --body-bg-html: #ffffff;
@@ -15,9 +16,9 @@
   --box-border: #e5e7eb;
   --box-sd: rgba(0, 0, 0, 0.05);
   /* light shadow for boxes */
-  --heading-1: #3a3a3a;
+  --heading-1: #1b2554;
   /* very dark navy, main heading */
-  --heading-2: #1d4ed8;
+  --heading-2: #000000;
   /* strong blue accent for secondary headings */
   --heading-3: #6b7280;
   /* gray for tertiary text */
@@ -39,9 +40,7 @@
   --box-sd: rgba(0, 0, 0, 0);
   /* optional, remove shadows for dark mode */
   --heading-1: #d9d9d9;
-  --heading-5: #d9d9d9;
-  /* almost white main heading */
-  --heading-2: #22d3ee;
+  --heading-2: #ffffff;
   /* bright cyan for secondary headings */
   --heading-3: #9ca3af;
   /* muted gray for tertiary text */
@@ -102,6 +101,10 @@
 
   .text-gradient {
     @apply bg-gradient-to-r from-[var(--accent-1)] to-[var(--accent-2)] bg-clip-text text-transparent;
+  }
+
+  .bg-gradient {
+    @apply bg-gradient-to-r from-[var(--accent-1)] to-[var(--accent-2)] text-white;
   }
 
 }
