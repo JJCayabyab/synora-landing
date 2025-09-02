@@ -23,10 +23,10 @@ const Navbar = ({darkMode,setDarkMode}) => {
             <span>Home</span>
           </a>
           <a>
-            <span>Features</span>
+            <span>About</span>
           </a>
           <a>
-            <span>Contact</span>
+            <span>Features</span>
           </a>
           <a>
             <span>Contact</span>
@@ -34,7 +34,7 @@ const Navbar = ({darkMode,setDarkMode}) => {
         </div>
 
 
-        <div className='w-20 sm:w-40 flex justify-center'>
+        <div className='w-20 sm:w-40 flex justify-end'>
 
           <button
             onClick={() => setDarkMode(!darkMode)}

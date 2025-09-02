@@ -34,6 +34,8 @@ export const FeaturesData = [
     }
 ]
 
+
+// data for Statistics
 export const StatisticsData = [
     {
         title: 'Data Points Processed Daily',
@@ -50,5 +52,58 @@ export const StatisticsData = [
     {
         title: 'Faster Insights',
         number: '10x'
+    },
+]
+
+//Data for Partners 
+import gemini from '../assets/partners/gemini.svg'
+import amazon from '../assets/partners/amazon.svg'
+import huggingface from '../assets/partners/huggingface.svg'
+import ibm from '../assets/partners/ibm.svg'
+import intel from '../assets/partners/intel.svg'
+import microsoft from '../assets/partners/microsoft.svg'
+import nvidia from '../assets/partners/nvidia.svg'
+import oracle from '../assets/partners/oracle.svg'
+
+export const PartnersData = [
+    {
+        logo: gemini,
+        name: gemini,
+        link:'https://gemini.google.com/'
+    },
+    {
+        logo: amazon,
+        name: amazon,
+        link:'https://aws.amazon.com/'
+    },
+    {
+        logo: huggingface,
+        name: huggingface,
+        link:'https://huggingface.co/'
+    },
+    {
+        logo: ibm,
+        name: ibm,
+        link:'https://www.ibm.com'
+    },
+    {
+        logo: intel,
+        name: intel,
+        link:'https://www.intel.com'
+    },
+    {
+        logo: microsoft,
+        name: microsoft,
+        link:'https://www.microsoft.com'
+    },
+    {
+        logo: nvidia,
+        name: nvidia,
+        link:'https://www.nvidia.com'
+    },
+    {
+        logo: oracle,
+        name: oracle,
+        link:'https://www.oracle.com/'
     },
 ]
