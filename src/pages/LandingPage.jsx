@@ -17,8 +17,8 @@ const LandingPage = ({ darkMode, setDarkMode }) => {
       <Partners />
       <Features darkMode={darkMode} />
       <About />
-      <Contacts />
       <Pricing />
+      <Contacts />
       <Footer />
     </>
   )

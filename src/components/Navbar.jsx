@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import logo from '../assets/Synora.png'
 
-const Navbar = ({darkMode,setDarkMode}) => {
+const Navbar = ({ darkMode, setDarkMode }) => {
 
   return (
     <>
-    
+
       <nav className='w-full  z-100  top-0 fixed  bg-body shadow-md h-16  flex items-center px-5 justify-between
       sm:px-7
       md:px-15
@@ -18,19 +18,23 @@ const Navbar = ({darkMode,setDarkMode}) => {
                md:text-xl'>Synora</h1>
         </div>
         <div className='hidden  font-body text-heading-1 font-semibold
-        sm:flex sm:gap-x-4 text-md'>
-          <a >
+        sm:flex sm:gap-x-0 text-md'>
+          <a className="px-4 py-2 rounded-md transition-colors duration-300 hover:bg-indigo-500 hover:text-white cursor-pointer">
             <span>Home</span>
           </a>
-          <a>
+          <a className="px-4 py-2 rounded-md transition-colors duration-300 hover:bg-indigo-500 hover:text-white cursor-pointer">
             <span>About</span>
           </a>
-          <a>
+          <a className="px-4 py-2 rounded-md transition-colors duration-300 hover:bg-indigo-500 hover:text-white cursor-pointer">
             <span>Features</span>
           </a>
-          <a>
+          <a className="px-4 py-2 rounded-md transition-colors duration-300 hover:bg-indigo-500 hover:text-white cursor-pointer">
+            <span>Pricing</span>
+          </a>
+          <a className="px-4 py-2 rounded-md transition-colors duration-300 hover:bg-indigo-500 hover:text-white cursor-pointer">
             <span>Contact</span>
           </a>
+
         </div>
 
 
