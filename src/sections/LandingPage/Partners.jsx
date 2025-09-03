@@ -37,11 +37,9 @@ const Partners = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, ease: "easeOut" }}
                 viewport={{ once: true }}
-                className="font-heading text-heading-1 font-bold text-xl mb-5 text-center
-                   sm:text-2xl
+                className="font-heading text-heading-1 font-bold text-2xl mb-5 text-center
                    md:text-3xl
-                   lg:text-4xl"
-            >
+                   lg:text-4xl">
                     Trusted by Leading Innovators
             </motion.h1>
             <PartnersItems />

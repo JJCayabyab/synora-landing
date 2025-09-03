@@ -1,14 +1,14 @@
 // LandingPage.jsx
-import React from 'react'
-import Navbar from '../components/Navbar'
-import Hero from '../sections/LandingPage/Hero'
-import Statistics from '../sections/LandingPage/Statistics'
-import Partners from '../sections/LandingPage/Partners'
-import Features from '../sections/LandingPage/Features'
-import About from '../sections/LandingPage/About'
-import Pricing from '../sections/LandingPage/Pricing'
-import Contacts from '../sections/LandingPage/Contacts'
-import Footer from '../components/Footer'
+import React from "react";
+import Navbar from "../components/Navbar";
+import Hero from "../sections/LandingPage/Hero";
+import Statistics from "../sections/LandingPage/Statistics";
+import Partners from "../sections/LandingPage/Partners";
+import Features from "../sections/LandingPage/Features";
+import About from "../sections/LandingPage/About";
+import Pricing from "../sections/LandingPage/Pricing";
+import Contacts from "../sections/LandingPage/Contacts";
+import Footer from "../components/Footer";
 
 const LandingPage = ({ darkMode, setDarkMode }) => {
   return (
@@ -42,10 +42,9 @@ const LandingPage = ({ darkMode, setDarkMode }) => {
       <section id="contact" className="scroll-mt-16">
         <Contacts darkMode={darkMode} />
       </section>
-
-     
+      <Footer  darkMode={darkMode}/>
     </>
-  )
-}
+  );
+};
 
-export default LandingPage
+export default LandingPage;
