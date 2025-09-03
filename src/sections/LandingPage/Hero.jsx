@@ -41,8 +41,8 @@ const Hero = () => {
           className="rounded-2xl max-h-96 w-auto relative z-10"
         />
         <div
-          className="absolute bottom-0 right-0 w-40 h-40  rounded-full bg-gradient-to-r from-[#6366f1] to-[#ec4899] blur-2xl opacity-90
-                     md:w-70 md:h-70 md:opacity-30"
+          className="absolute -bottom-30 -right-20 w-40 h-40  rounded-full bg-gradient-to-r from-[#6366f1] to-[#ec4899] blur-2xl opacity-30
+                     md:w-70 md:h-70 "
         ></div>
       </div>
     </Container>

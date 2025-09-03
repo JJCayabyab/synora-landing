@@ -11,15 +11,17 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                   lg:px-15
                   xl:px-36"
       >
-        <div className="flex items-center w-40 0gap-2">
-          <img className="size-14" src={logo} />
-          <h1
-            className="font-heading text-lg font-bold  bg-gradient-to-r from-[#6366f1] to-[#ec4899] bg-clip-text text-transparent
+        <a href="http://localhost:5173/#home">
+          <div className="flex items-center w-40 0gap-2">
+            <img className="size-14" src={logo} />
+            <h1
+              className="font-heading text-lg font-bold  bg-gradient-to-r from-[#6366f1] to-[#ec4899] bg-clip-text text-transparent
                         md:text-xl"
-          >
-            Synora
-          </h1>
-        </div>
+            >
+              Synora
+            </h1>
+          </div>
+        </a>
         <div
           className="hidden  font-body text-heading-1 font-semibold
                      sm:flex sm:gap-x-0 text-md"
