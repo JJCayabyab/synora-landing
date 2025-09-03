@@ -19,21 +19,22 @@ const Navbar = ({ darkMode, setDarkMode }) => {
         </div>
         <div className='hidden  font-body text-heading-1 font-semibold
         sm:flex sm:gap-x-0 text-md'>
-          <a className="px-4 py-2 rounded-md transition-colors duration-300 hover:bg-indigo-500 hover:text-white cursor-pointer">
+          <a href="#home" className="px-4 py-2 rounded-md transition-colors duration-300 hover:bg-indigo-500 hover:text-white cursor-pointer">
             <span>Home</span>
           </a>
-          <a className="px-4 py-2 rounded-md transition-colors duration-300 hover:bg-indigo-500 hover:text-white cursor-pointer">
+          <a href="#about" className="px-4 py-2 rounded-md transition-colors duration-300 hover:bg-indigo-500 hover:text-white cursor-pointer">
             <span>About</span>
           </a>
-          <a className="px-4 py-2 rounded-md transition-colors duration-300 hover:bg-indigo-500 hover:text-white cursor-pointer">
+          <a href="#features" className="px-4 py-2 rounded-md transition-colors duration-300 hover:bg-indigo-500 hover:text-white cursor-pointer">
             <span>Features</span>
           </a>
-          <a className="px-4 py-2 rounded-md transition-colors duration-300 hover:bg-indigo-500 hover:text-white cursor-pointer">
+          <a href="#pricing" className="px-4 py-2 rounded-md transition-colors duration-300 hover:bg-indigo-500 hover:text-white cursor-pointer">
             <span>Pricing</span>
           </a>
-          <a className="px-4 py-2 rounded-md transition-colors duration-300 hover:bg-indigo-500 hover:text-white cursor-pointer">
+          <a href="#contact" className="px-4 py-2 rounded-md transition-colors duration-300 hover:bg-indigo-500 hover:text-white cursor-pointer">
             <span>Contact</span>
           </a>
+
 
         </div>
 

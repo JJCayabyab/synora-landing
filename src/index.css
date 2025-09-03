@@ -5,16 +5,13 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
-/* 🌞 Light Theme */
+/* Light Theme */
 @theme {
- 
   --font-heading: "Inter", sans-serif;
   --font-body: "Raleway", sans-serif;
   --body-bg-html: #ffffff;
   --color-bg: #ffffff;
   --color-box: #f3f4f6;
-  --box-border: #e5e7eb;
-  --box-sd: rgba(0, 0, 0, 0.05);
   /* light shadow for boxes */
   --heading-1: #1b2554;
   /* very dark navy, main heading */
@@ -35,10 +32,6 @@
   /* very dark navy background */
   --color-box: #3a3a3a;
   /* dark gray for cards */
-  --box-border: rgba(255, 255, 255, 0.1);
-  /* subtle border in dark mode */
-  --box-sd: rgba(0, 0, 0, 0);
-  /* optional, remove shadows for dark mode */
   --heading-1: #d9d9d9;
   --heading-2: #ffffff;
   /* bright cyan for secondary headings */
@@ -109,7 +102,10 @@
 
 }
 
-/* Smooth scroll + font */
+* {
+  scroll-behavior: smooth;
+}
+
 html {
   scroll-behavior: smooth;
 }

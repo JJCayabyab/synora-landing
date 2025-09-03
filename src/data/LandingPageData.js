@@ -69,82 +69,110 @@ export const PartnersData = [
     {
         logo: gemini,
         name: gemini,
-        link:'https://gemini.google.com/'
+        link: 'https://gemini.google.com/'
     },
     {
         logo: amazon,
         name: amazon,
-        link:'https://aws.amazon.com/'
+        link: 'https://aws.amazon.com/'
     },
     {
         logo: huggingface,
         name: huggingface,
-        link:'https://huggingface.co/'
+        link: 'https://huggingface.co/'
     },
     {
         logo: ibm,
         name: ibm,
-        link:'https://www.ibm.com'
+        link: 'https://www.ibm.com'
     },
     {
         logo: intel,
         name: intel,
-        link:'https://www.intel.com'
+        link: 'https://www.intel.com'
     },
     {
         logo: microsoft,
         name: microsoft,
-        link:'https://www.microsoft.com'
+        link: 'https://www.microsoft.com'
     },
     {
         logo: nvidia,
         name: nvidia,
-        link:'https://www.nvidia.com'
+        link: 'https://www.nvidia.com'
     },
     {
         logo: oracle,
         name: oracle,
-        link:'https://www.oracle.com/'
+        link: 'https://www.oracle.com/'
     },
 ]
 
 //data for pricing 
 export const PricingData = [
-  {
-    name: "Starter",
-    tagline: "Best for individuals just getting started",
-    price: "Free",
-    features: [
-      "Access to essential features",
-      "1,000 monthly requests",
-      "Community support"
-    ],
-    highlight: false
-  },
-  {
-    name: "Pro",
-    tagline: "For startups & teams",
-    price: "$29/month",
-    features: [
-      "Everything in Starter",
-      "Unlimited monthly requests",
-      "Advanced AI features",
-      "Priority support",
-      "Early access to new tools"
-    ],
-    highlight: true // 👈 this marks it as "Best Value"
-  },
-  {
-    name: "Enterprise",
-    tagline: "For large-scale organizations",
-    price: "Custom Pricing",
-    features: [
-      "Everything in Pro",
-      "Dedicated account manager",
-      "Custom API & integrations",
-      "Tailored security & compliance",
-      "24/7 premium support"
-    ],
-    highlight: false
-  }
+    {
+        name: "Starter",
+        tagline: "Best for individuals just getting started",
+        price: "Free",
+        features: [
+            "Access to essential features",
+            "1,000 monthly requests",
+            "Community support"
+        ],
+        highlight: false
+    },
+    {
+        name: "Pro",
+        tagline: "For startups & teams",
+        price: "$29/month",
+        features: [
+            "Everything in Starter",
+            "Unlimited monthly requests",
+            "Advanced AI features",
+            "Priority support",
+            "Early access to new tools"
+        ],
+        highlight: true // 👈 this marks it as "Best Value"
+    },
+    {
+        name: "Enterprise",
+        tagline: "For large-scale organizations",
+        price: "Custom Pricing",
+        features: [
+            "Everything in Pro",
+            "Dedicated account manager",
+            "Custom API & integrations",
+            "Tailored security & compliance",
+            "24/7 premium support"
+        ],
+        highlight: false
+    }
 ];
+
+
+//contact
+import email from '../assets/contact/email.png'
+import emailDark from '../assets/contact/email-dark.png'
+import location from '../assets/contact/location.png'
+import locationDark from '../assets/contact/location-dark.png'
+import phone from '../assets/contact/phone.png'
+import phoneDark from '../assets/contact/phone-dark.png'
+
+
+export const contactData = [
+    {
+        icon: email,
+        text: 'support@synora.com',
+        iconDark: emailDark
+    },
+    {
+        icon: phone,
+        text: '+63 123 456 890',
+        iconDark: phoneDark
+    },
+    {
+        icon: location,
+        text: '123 Synora Street, Tech City',
+        iconDark: locationDark
+    }
+]

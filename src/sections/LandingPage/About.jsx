@@ -7,13 +7,13 @@ const About = () => {
   return (
     <div>
       <Container className="flex flex-col items-center gap-5 lg:flex-row">
-        <div className="lg:w-1/2">
+        <div className="lg:w-1/2 ">
           <motion.h1
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: 'easeOut' }}
             viewport={{ once: true }}
-            className="font-heading text-heading-1 font-bold text-xl mb-3 text-center
+            className="font-heading text-heading-1 font-bold text-xl mb-0 text-center
                        sm:text-2xl
                        md:text-3xl
                        lg:text-4xl lg:text-left"
@@ -21,7 +21,7 @@ const About = () => {
             Who We Are
           </motion.h1>
 
-          <motion.h2
+          <motion.h2 
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: 'easeOut' }}
