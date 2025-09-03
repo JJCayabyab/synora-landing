@@ -7,8 +7,8 @@ const Navbar = ({ darkMode, setDarkMode }) => {
       <nav
         className="w-full  z-100  top-0 fixed  bg-body shadow-md h-16  flex items-center px-5 justify-between
                   sm:px-7
-                  md:px-15
-                  lg:px-15
+                  md:px-14
+                  lg:px-14
                   xl:px-36"
       >
         <a href="http://localhost:5173/#home">

@@ -42,7 +42,9 @@ const LandingPage = ({ darkMode, setDarkMode }) => {
       <section id="contact" className="scroll-mt-16">
         <Contacts darkMode={darkMode} />
       </section>
-      <Footer  darkMode={darkMode}/>
+
+      <Footer darkMode={darkMode}/>
+
     </>
   );
 };
