@@ -191,13 +191,13 @@ export const footerIcons = [
   },
   {
     icon: instagram,
-    text: "https://www.instagram.com/",
+    href: "https://www.instagram.com/",
     iconDark: instagramDark,
      name: "instagram",
   },
   {
     icon: twitter,
-    text: "https://x.com/",
+    href: "https://x.com/",
     iconDark: twitterDark,
     name: "twitter",
   },

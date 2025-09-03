@@ -65,7 +65,7 @@ const Footer = ({ darkMode }) => {
                   key={index}
                   src={darkMode ? icon.iconDark : icon.icon}
                   alt={icon.name}
-                  className="w-6 h-6 cursor-pointer hover:opacity-80 transition"
+                  className="w-6 h-6 cursor-pointer hover:opacity-70 transition"
                 />
               </a>
             ))}
