@@ -15,14 +15,14 @@ const Navbar = ({ darkMode, setDarkMode }) => {
           <img className="size-14" src={logo} />
           <h1
             className="font-heading text-lg font-bold  bg-gradient-to-r from-[#6366f1] to-[#ec4899] bg-clip-text text-transparent
-                          md:text-xl"
+                        md:text-xl"
           >
             Synora
           </h1>
         </div>
         <div
           className="hidden  font-body text-heading-1 font-semibold
-        sm:flex sm:gap-x-0 text-md"
+                     sm:flex sm:gap-x-0 text-md"
         >
           <a
             href="#home"

@@ -8,9 +8,9 @@ const Footer = ({ darkMode }) => {
     <div className="bg-gray-100 dark:bg-[#1e293b]">
       <div
         className="mx-auto max-w-7xl px-6 py-5
-        sm:px-8 sm:py-6
-        md:px-14 md:py-9
-        lg:px-14 lg:py-11"
+                    sm:px-8 sm:py-6
+                    md:px-14 md:py-9
+                    lg:px-14 lg:py-11"
       >
         <div className="flex flex-col gap-5 items-center justify-center md:flex-row lg:justify-between">
           <div className="flex ">

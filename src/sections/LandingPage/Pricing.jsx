@@ -6,7 +6,10 @@ import { PricingData } from "../../data/LandingPageData";
 const Pricing = () => {
   const PricingItems = () => {
     return (
-      <div className="flex flex-col gap-7 lg:flex-row lg:gap-10 items-stretch w-full">
+      <div
+        className="flex flex-col gap-7  items-stretch w-full
+                   lg:flex-row lg:gap-10"
+      >
         {PricingData.map((plan, index) =>
           plan.highlight ? (
             <motion.div
@@ -15,8 +18,9 @@ const Pricing = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.2 }}
               viewport={{ once: true }}
-              className="relative bg-gradient dark:bg-[#1e293b] p-1 rounded-xl 
-                                w-full md:max-w-md mx-auto lg:flex-1"
+              className="relative bg-gradient mx-auto  dark:bg-[#1e293b] p-1 rounded-xl w-full 
+                         md:max-w-md 
+                        lg:flex-1"
             >
               <div className="bg-white dark:bg-[#1e293b] justify-between rounded-xl p-6 flex flex-col items-center text-center h-full">
                 <span className="absolute top-0 z-20 text-white bg-gradient rounded-b-full font-medium text-md font-heading px-4 py-1">
@@ -24,7 +28,10 @@ const Pricing = () => {
                 </span>
                 <div>
                   <div className="flex items-center justify-center">
-                    <h2 className="font-body text-heading-1 inline mr-2 font-semibold  text-md mt-4  md:text-2xl ">
+                    <h2
+                      className="font-body text-heading-1 inline mr-2 font-semibold  text-md mt-4  
+                                 md:text-2xl "
+                    >
                       {plan.name}
                     </h2>
                   </div>
