@@ -69,7 +69,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
       <div className="w-10 sm:w-40 flex justify-end">
         <button
           onClick={() => setDarkMode(!darkMode)}
-          className="p-2 rounded-full bg-gradient-to-r from-[#79d7e8] to-[#cdf5fc] 
+          className="p-2 rounded-lg bg-gradient-to-r from-[#79d7e8] to-[#cdf5fc] 
                      dark:from-[#434f6b] dark:to-[#1e293b]"
         >
           {darkMode ? "🌙" : "☀️"}
